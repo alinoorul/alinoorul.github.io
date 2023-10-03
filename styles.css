@@ -13,7 +13,6 @@ body {
   a {
     color: #00ff41;
     text-decoration: none;
-    font-family:consolas;
   }
   a:hover {
     text-decoration: underline;
