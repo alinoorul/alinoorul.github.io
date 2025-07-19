@@ -1,6 +1,7 @@
 body {
   background-color: black;
-  color: rgb(220, 220, 220)
+  color: rgb(220, 220, 220);
+  padding: 0px 50px;
 }
 h1 {
   color: rgb(240, 240, 240); font-family:monospace; text-align: center; font-size: 2.5rem;
@@ -21,11 +22,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
-body {
-  padding: 0px 100px;
-}
 .indexlink {
-  color: rgb(240, 240, 240); font-family:arial; font-size: 20px; letter-spacing: 0.05em; padding: px 0px;
+  color: rgb(240, 240, 240); font-family:arial; font-size: 20px; letter-spacing: 0.05em; padding: 0px 0px;
 }
 
 @media screen and (max-width: 600px) {
