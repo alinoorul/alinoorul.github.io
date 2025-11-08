@@ -26,13 +26,19 @@ a:hover {
   color: rgb(240, 240, 240); font-family:arial; font-size: 20px; letter-spacing: 0.05em; padding: 0px 0px;
 }
 img {
-  display: block;
+    display: block;
     max-height: 100%;
     max-width: 80%;
     margin: auto;
 }
 .ulink:hover {
   text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  
+  img {
+    max-width: 100%;
+}
 }
 @media screen and (max-width: 600px) {
   body {
